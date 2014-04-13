@@ -10,7 +10,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Background'
         },
         requirements: [
-          { name: null, value: 'Novice' },
+          { name: null, value: 'Novice', mode: 'rank' },
           { name: 'Vigor', value: 'd6' }
         ]
       },
@@ -21,7 +21,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Background'
         },
         requirements: [
-          { name: null, value: 'Novice' },
+          { name: null, value: 'Novice', mode: 'rank' },
           { name: null, value: 'Attractive' }
         ]
       },
@@ -32,7 +32,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Background'
         },
         requirements: [
-          { name: null, value: 'Novice' },
+          { name: null, value: 'Novice', mode: 'rank' },
           { name: 'Spirit', value: 'd6' }
         ]
       },
@@ -43,7 +43,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Combat'
         },
         requirements: [
-          { name: null, value: 'Seasoned' },
+          { name: null, value: 'Seasoned', mode: 'rank' },
           { name: 'Fighting', value: 'd8' }
         ]
       },
@@ -54,7 +54,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Combat'
         },
         requirements: [
-          { name: null, value: 'Novice' },
+          { name: null, value: 'Novice', mode: 'rank' },
           { name: 'Strength', value: 'd6' }
         ]
       },
@@ -65,7 +65,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Leadership'
         },
         requirements: [
-          { name: null, value: 'Novice' },
+          { name: null, value: 'Novice', mode: 'rank' },
           { name: 'Smart', value: 'd6' }
         ]
       },
@@ -76,7 +76,7 @@ angular.module('swFrontApp').service('edges', function() {
           name: 'Leadership'
         },
         requirements: [
-          { name: null, value: 'Seasoned' },
+          { name: null, value: 'Seasoned', mode: 'rank' },
           { name: 'Smart', value: 'd8' },
           { name: null, value: 'Command' }
         ]
